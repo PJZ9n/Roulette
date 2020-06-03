@@ -1,0 +1,10 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/PJZ9n/Roulette
+build-by-default: true
+branches:
+  - master
+projects:
+  Roulette:
+    libs:
+      - src: FlowyProject/Flowy/Flowy
+        version: 0.1.0
+...
